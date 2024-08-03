@@ -1,0 +1,36 @@
+body {
+  display: grid;
+  grid-auto-rows: auto 1fr;
+  gap: 50px;
+}
+
+.title {
+  position: absolute;
+  top: 50px;
+  left: 50vw;
+
+  font-family: var(--header-font), "serif";
+  font-size: 2rem;
+
+  transform: translate(-50%, -50%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav button {
+  border: none;
+  background: none;
+}
+
+nav > div {
+  display: flex;
+  gap: 50px;
+}
+
+#content {
+  background-color: black;
+  border-radius: 10px;
+}
