@@ -27,12 +27,14 @@ module.exports = {
     alias: {
       js: path.resolve(__dirname, "src/js"),
       styles: path.resolve(__dirname, "src/styles"),
+      fonts: path.resolve(__dirname, "src/fonts"),
+      media: path.resolve(__dirname, "src/media"),
     },
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/template.html",
       title: "Restaurant Page",
+      template: "./src/template.html",
     }),
   ],
 };

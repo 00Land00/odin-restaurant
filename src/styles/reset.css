@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "Roboto Serif", serif;
+  font-family: var(--body-font), serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
