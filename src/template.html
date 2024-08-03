@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Hello!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <h1 class="title">THE SPECIAL</h1>
+    <header>
+      <nav>
+        <button type="button">HOME</button>
+        <div>
+          <button type="button">MENU</button>
+          <button type="button">ABOUT</button>
+        </div>
+      </nav>
+    </header>
+    <div id="content"></div>
+  </body>
 </html>
