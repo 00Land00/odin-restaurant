@@ -21,6 +21,7 @@ nav {
 }
 
 nav button {
+  cursor: pointer;
   border: none;
   background: none;
 }
@@ -28,6 +29,10 @@ nav button {
 nav > div {
   display: flex;
   gap: 50px;
+}
+
+.focus {
+  text-decoration: underline;
 }
 
 #content {
