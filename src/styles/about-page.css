@@ -1,0 +1,31 @@
+.about .left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: white;
+}
+
+.about .about-title {
+  font-family: var(--header-font);
+}
+
+.about .right-col {
+  position: relative;
+}
+
+.about .right-col > img {
+  position: absolute;
+  height: 0;
+  min-height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  opacity: 1;
+  border-radius: 10px;
+  transition: opacity 2s ease-in-out;
+}
+
+.invisible {
+  opacity: 0 !important;
+}

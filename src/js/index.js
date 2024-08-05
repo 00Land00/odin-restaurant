@@ -3,7 +3,8 @@ import "styles/reset.css";
 import "styles/header.css";
 
 import { homepageComponent } from "js/home-page.js";
-import { menupageComponent } from "./menu-page";
+import { menupageComponent } from "js/menu-page";
+import { aboutpageComponent } from "js/about-page";
 
 const content = document.querySelector("#content");
 
@@ -37,7 +38,9 @@ window.addEventListener("DOMContentLoaded", () => {
 
   abtBtn.addEventListener("click", () => {
     toggleFocus();
-    toggleFocus(abtBtn);
+    content.innerHTML = ``;
+    aboutpageComponent();
+    toggleFocus(abtBtn, "about");
   });
 
   toggleFocus();
