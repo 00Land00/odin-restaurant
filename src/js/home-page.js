@@ -1,8 +1,9 @@
 import "styles/home-page.css";
-import PastaImg from "media/pasta.jpg";
-import MacaronImg from "media/macaron.jpg";
-import OysterImg from "media/oyster.jpg";
-import SoupImg from "media/soup.jpg";
+
+import PastaImg from "media/pasta.webp";
+import MacaronImg from "media/macaron.webp";
+import OysterImg from "media/oyster.webp";
+import SoupImg from "media/soup.webp";
 
 const content = document.querySelector("#content");
 
@@ -43,8 +44,6 @@ const createRightCol = () => {
 }
 
 const homepageComponent = () => {
-  content.innerHTML = ``;
-  
   const leftCol = createLeftCol();
   const rightCol = createRightCol();
 
